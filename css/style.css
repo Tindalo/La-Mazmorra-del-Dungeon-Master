@@ -1,0 +1,230 @@
+.titulo {
+  background-color: #FFC300;
+  font-family: 'Uncial Antiqua', cursive;
+  text-decoration: none;
+  color: black;
+  padding-top: 110px;
+  text-align: center;
+  width: 100%; }
+  .titulo h1 {
+    padding-bottom: 90px;
+    font-size: 65px; }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .container nav {
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 1%;
+    width: 30vw;
+    text-align: center; }
+    .container nav a {
+      color: white;
+      font-family: 'Averia Serif Libre', cursive;
+      font-size: 20px; }
+
+.mensaje {
+  align-content: center;
+  color: white;
+  font-family: 'Averia Serif Libre', cursive;
+  font-weight: bold;
+  padding-top: 35px; }
+
+.mensaje:hover {
+  transform: skewX(20deg); }
+
+.container > nav > a:hover {
+  background-color: #252424; }
+
+footer {
+  position: absolute bottom;
+  bottom: 0;
+  left: 0;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #292727;
+  color: white; }
+
+.texto-footer {
+  padding-top: 15px;
+  font-family: 'Uncial Antiqua', cursive;
+  font-size: 25px;
+  margin-left: 100px; }
+  .texto-footer h3 {
+    justify-content: left; }
+
+.texto-footer:hover {
+  color: #2b5ad2; }
+
+.row {
+  align-items: center; }
+
+.link {
+  padding-bottom: 5px;
+  width: 30px;
+  background-size: 70%;
+  margin-right: 1rem; }
+
+.link:hover {
+  opacity: 0.7; }
+
+.cafe {
+  padding-right: 20px;
+  padding-top: 9px; }
+
+nav div a {
+  font-family: 'Averia Serif Libre', cursive;
+  font-weight: bold; }
+
+ul li a {
+  font-family: 'Averia Serif Libre', cursive;
+  font-weight: bold; }
+
+h5 {
+  font-family: 'Uncial Antiqua', cursive;
+  font-weight: bold; }
+
+.cuerpo-tablas {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  padding-bottom: 15rem; }
+
+.tabla {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  margin-top: 100px; }
+
+th, td {
+  padding: 10px;
+  font-family: 'Averia Serif Libre', cursive; }
+
+.titulo-tabla {
+  text-align: center;
+  font-family: 'Uncial Antiqua', cursive;
+  justify-content: center;
+  color: black;
+  background-color: white; }
+
+th {
+  background-color: #FFC300;
+  border-bottom: solid 1px black;
+  color: black; }
+
+tr:nth-child(even) {
+  background-color: lightgrey; }
+
+tr:hover {
+  background-color: #FFC300; }
+
+.about {
+  display: inline; }
+
+.sobre-sitio {
+  font-family: 'Averia Serif Libre', cursive;
+  font-weight: bold;
+  padding-top: 125px;
+  color: white;
+  padding-left: 45px;
+  font-size: 40px; }
+
+.sobre-sitio-parrafo {
+  font-family: 'Averia Serif Libre', cursive;
+  font-weight: bold;
+  color: white;
+  text-align: justify;
+  padding-left: 45px;
+  padding-right: 45px;
+  font-size: 20px; }
+
+@media screen and (max-width: 767px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: right; }
+  .titulo {
+    font-size: xx-small;
+    width: 100%;
+    text-align: center;
+    width: fit-content; }
+    .titulo h1 {
+      font-size: 38px;
+      width: 100%; }
+  h3 {
+    text-align: center; }
+  nav {
+    justify-content: center; }
+  .mensaje {
+    margin-bottom: 200px; }
+  footer {
+    position: absolute;
+    bottom: 0; }
+  .cuerpo-tablas {
+    position: relative; } }
+
+@media screen and (max-width: 480px) {
+  .container {
+    flex-direction: column;
+    align-items: center; }
+  .cafe {
+    width: 155px; }
+  .sobre-sitio {
+    padding-top: 100px; }
+  .sobre-sitio-parrafo {
+    font-size: 19px; }
+  .cuerpo {
+    height: min-content; }
+  .texto-footer {
+    padding-right: 100px; }
+  footer {
+    position: absolute;
+    bottom: 0; }
+  .row {
+    display: inline; }
+  .cuerpo-tablas {
+    position: relative; } }
+
+@media screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .cafe {
+    width: 155px; }
+  .sobre-sitio {
+    padding-top: 100px; }
+  .sobre-sitio-parrafo {
+    font-size: 19px; }
+  .cuerpo {
+    height: min-content; }
+  .texto-footer {
+    padding-right: 100px; }
+  footer {
+    position: absolute;
+    bottom: 0; }
+  .row {
+    display: inline; }
+  .cuerpo-tablas {
+    position: relative; }
+  .titulo {
+    width: 100%; } }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.cuerpo {
+  background-color: #464242;
+  height: fit-content;
+  position: relative;
+  padding-bottom: 15rem; }

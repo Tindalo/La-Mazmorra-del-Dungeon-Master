@@ -1,0 +1,57 @@
+//Variables
+
+$blanco:white;
+
+
+footer{
+    position:absolute bottom;
+    bottom: 0;
+    left: 0;
+    height:fit-content;
+    width: 100%;
+    display:flex;
+    justify-content:center;   
+    flex-direction: column;
+    background-color:rgb(41, 39, 39);
+    color: $blanco;
+    
+}
+
+.texto-footer {
+    padding-top: 15px;
+    font-family: 'Uncial Antiqua', cursive;
+    font-size: 25px;
+    margin-left: 100px;
+            h3{
+                justify-content: left;
+            }
+}
+
+
+.texto-footer:hover{
+    color: rgb(43, 90, 210);
+}
+
+.row{
+    align-items: center;
+}
+
+
+
+.link{
+    padding-bottom: 5px;
+    width: 30px;
+    background-size: 70%;
+    margin-right: 1rem;
+}    
+
+
+
+.link:hover{
+    opacity: 0.7;
+}
+
+.cafe{
+    padding-right: 20px;
+    padding-top: 9px;
+}

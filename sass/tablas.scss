@@ -1,0 +1,50 @@
+//Variables
+$amarillo:#FFC300;
+$blanco:white;
+
+
+.cuerpo-tablas{
+    width:100%;
+    height:fit-content;
+    position: relative;
+    padding-bottom: 15rem;
+}
+
+.tabla{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: $blanco;
+    margin-top: 100px;    
+   
+}
+
+
+th, td{
+    padding: 10px;
+    font-family: 'Averia Serif Libre', cursive;
+   
+}
+
+.titulo-tabla {
+    text-align: center;
+    font-family: 'Uncial Antiqua', cursive;
+    justify-content: center;
+    color:black;
+    background-color: $blanco;   
+}
+
+th{
+    background-color: $amarillo;
+    border-bottom: solid 1px black;
+    color:black;
+}
+
+tr:nth-child(even){
+    background-color: lightgrey;
+}
+
+tr:hover{
+    background-color: $amarillo;
+    
+}

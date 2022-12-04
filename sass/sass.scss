@@ -1,0 +1,21 @@
+@import "index";
+@import "footer";
+@import "nav";
+@import "tablas";
+@import "about";
+@import "mq";
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cuerpo{
+    background-color: rgb(70, 66, 66);
+    height:fit-content;
+    position: relative;
+    padding-bottom: 15rem;
+}

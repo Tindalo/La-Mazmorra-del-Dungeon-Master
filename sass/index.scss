@@ -1,0 +1,66 @@
+
+//Variables
+$amarillo:#FFC300;
+$blanco:white;
+
+
+
+
+
+
+.titulo{
+    background-color:$amarillo;
+    font-family: 'Uncial Antiqua', cursive;
+    text-decoration: none;
+    color: black;
+    padding-top: 110px;
+    text-align: center;
+    width: 100%;
+        h1{
+            padding-bottom: 90px;
+            font-size: 65px;
+        }    
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    color: $blanco;
+    padding-top: 20px;
+    padding-bottom: 20px;
+        nav{
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 1%;
+            width: 30vw;
+            text-align: center;
+                a {
+                    color: $blanco;
+                    font-family: 'Averia Serif Libre', cursive;
+                    font-size: 20px;
+                } 
+        }
+}
+
+
+
+.mensaje{
+    align-content: center;
+    color:$blanco;
+    font-family: 'Averia Serif Libre', cursive;
+    font-weight: bold;
+    padding-top: 35px;   
+}
+
+
+.mensaje:hover{
+    transform: skewX(20deg);
+}
+
+
+
+.container > nav > a:hover{
+    background-color: rgb(37, 36, 36);
+}
